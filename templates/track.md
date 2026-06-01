@@ -269,9 +269,10 @@ For distributor upload (DistroKid) and the Spotify editorial pitch (Spotify for 
 | Field | Value |
 |-------|-------|
 | **Primary Genre** | [closest official DistroKid genre, e.g. Dance] |
-| **Secondary Genre** | [e.g. Electronic] |
+| **Secondary Genre** | [e.g. Pop] |
+| **Subgenre** (required only if Primary = Electronic) | [e.g. Electro House — see list] |
 
-*DistroKid uses fixed dropdowns — pick the closest official genre. Subgenre/style nuance lives in the Spotify pitch below and in tags, not here.*
+*DistroKid uses fixed dropdowns — pick the closest official genre. **If Primary = "Electronic", a subgenre is mandatory** (Big Room, Electro House, Drum & Bass, House, Techno, Trance, …). If no electronic subgenre fits (anime/anisong, hyperpop, cinematic), prefer Primary "Dance" or "Pop" to avoid the forced subgenre. Full list + mapping in `/reference/release/metadata-by-platform.md`. Subgenre/style nuance lives in the Spotify pitch below and in tags, not in the dropdown.*
 
 ### Spotify Editorial Pitch
 

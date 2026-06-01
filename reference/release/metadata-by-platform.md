@@ -143,6 +143,35 @@ Character limits, required fields, and specifications for each platform.
 
 **Check distributor's genre list** - varies by platform.
 
+#### DistroKid genres
+
+DistroKid uses fixed dropdowns (no free text). Pick the closest official value.
+
+**Mandatory subgenre when Primary = "Electronic".** Selecting "Electronic" as
+the primary genre forces a required subgenre from this closed list:
+
+| Subgenre | Subgenre | Subgenre |
+|----------|----------|----------|
+| Big Room | Breaks | Chill Out |
+| Deep House | Drum & Bass | Dubstep |
+| Electro House | Electronica / Downtempo | Funk / Soul / Disco |
+| Glitch Hop | Hard Dance | Hardcore / Hard Techno |
+| Hip-Hop / R&B | House | Indie Dance / Nu Disco |
+| Minimal / Deep Tech | Progressive House | Psy-Trance |
+| Reggae / Dancehall / Dub | Tech House | Techno |
+| Trance | | |
+
+Mapping hints for Suno output:
+- Melodic / supersaw "festival" or NCS/Monstercat EDM → **Electro House** (or **Big Room** for big euphoric drops)
+- Melodic DnB / liquid / Feint-style (≈165–174 BPM) → **Drum & Bass**
+- Downtempo / ambient / lo-fi → **Electronica / Downtempo** or **Chill Out**
+- Future-bass / chillstep with vocals → closest is **Electro House** or **Electronica / Downtempo** (DistroKid has no dedicated tag)
+
+If none fit (e.g. anime-opening / anisong, hyperpop, cinematic), prefer a
+**non-Electronic primary** that avoids the forced subgenre — typically
+**Dance** (energetic club/EDM with vocals) or **Pop** (vocal-forward, catchy).
+Capture the precise style in the Spotify pitch and in tags, not in the DistroKid dropdown.
+
 ### Tags
 
 | Platform | Max Tags | Character Limit |

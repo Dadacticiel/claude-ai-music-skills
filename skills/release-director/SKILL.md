@@ -168,7 +168,7 @@ Check for custom release preferences:
 2. **Metadata file** - All platform metadata compiled
 3. **Album art** - Verified 3000x3000px, correct format
 4. **Track order confirmation** - Final sequencing verified
-5. **Genre classification** - DistroKid primary + secondary genre, filled in each track's `## Distribution & Pitch` section. Map the Suno style/genre to the closest official DistroKid dropdown value (DistroKid has no free-text subgenre — nuance goes in the Spotify pitch and tags).
+5. **Genre classification** - DistroKid primary + secondary genre, filled in each track's `## Distribution & Pitch` section. Map the Suno style/genre to the closest official DistroKid dropdown value. **If Primary = "Electronic", DistroKid forces a mandatory subgenre** from a fixed list (Big Room, Electro House, Drum & Bass, House, Techno, Trance, …) — fill the Subgenre field. If no electronic subgenre fits (anime/anisong, hyperpop, cinematic), prefer Primary "Dance" or "Pop" to avoid the forced subgenre; precise style nuance goes in the Spotify pitch and tags. Full list + mapping in `/reference/release/metadata-by-platform.md`.
 6. **Spotify editorial pitch** - Fill the `## Distribution & Pitch` → "Spotify Editorial Pitch" block in each track `.md` (genres up to 3, moods, styles, instruments, similar artists, language, and the ≤500-char description). See "Writing the Spotify Pitch" below. Pitch in Spotify for Artists while the release is scheduled (7+ days before release date).
 7. **Social media copy** (optional) - `promo/` files populated for target platforms (use `/bitwize-music:promo-writer` to generate copy from album themes, or fill in templates manually; `/bitwize-music:promo-director` generates videos, not copy)
 
