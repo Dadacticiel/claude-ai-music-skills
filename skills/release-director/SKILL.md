@@ -168,8 +168,20 @@ Check for custom release preferences:
 2. **Metadata file** - All platform metadata compiled
 3. **Album art** - Verified 3000x3000px, correct format
 4. **Track order confirmation** - Final sequencing verified
-5. **Genre classification** - distributor primary/secondary/subgenre
-6. **Social media copy** (optional) - `promo/` files populated for target platforms (use `/bitwize-music:promo-writer` to generate copy from album themes, or fill in templates manually; `/bitwize-music:promo-director` generates videos, not copy)
+5. **Genre classification** - DistroKid primary + secondary genre, filled in each track's `## Distribution & Pitch` section. Map the Suno style/genre to the closest official DistroKid dropdown value (DistroKid has no free-text subgenre — nuance goes in the Spotify pitch and tags).
+6. **Spotify editorial pitch** - Fill the `## Distribution & Pitch` → "Spotify Editorial Pitch" block in each track `.md` (genres up to 3, moods, styles, instruments, similar artists, language, and the ≤500-char description). See "Writing the Spotify Pitch" below. Pitch in Spotify for Artists while the release is scheduled (7+ days before release date).
+7. **Social media copy** (optional) - `promo/` files populated for target platforms (use `/bitwize-music:promo-writer` to generate copy from album themes, or fill in templates manually; `/bitwize-music:promo-director` generates videos, not copy)
+
+#### Writing the Spotify Pitch
+
+The editorial pitch targets a **playlist editor**, not fans. Build the ≤500-char description from the track's Concept, Mood & Imagery, and Musical Direction:
+
+- **Lead with the hook or story** — what the song is about or the feeling it delivers, in one line.
+- **Name the sonic palette** — mood + style + standout instruments (pull from Musical Direction / Instrumentation).
+- **Call out the grab moment** — the drop, the hook, the key change — what makes an editor lean in.
+- **Stay factual and clean** — no hashtags, no links, no ALL CAPS, no streaming-number boasts, no naming other artists in the prose (similar artists go in their own field).
+
+Fill the structured fields (genres, moods, styles, instruments, similar artists, language) from the same track sections so the metadata and the prose agree.
 
 ---
 

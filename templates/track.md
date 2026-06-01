@@ -258,6 +258,40 @@ Blank lines between sections only]
 
 <!-- END VOCAL ONLY -->
 
+## Distribution & Pitch
+
+<!--
+For distributor upload (DistroKid) and the Spotify editorial pitch (Spotify for Artists → "Pitch a Song", available while the release is scheduled, 7+ days before release date). See /reference/release/metadata-by-platform.md. Fill during the release phase; /bitwize-music:release-director generates the pitch.
+-->
+
+### DistroKid Genres
+
+| Field | Value |
+|-------|-------|
+| **Primary Genre** | [closest official DistroKid genre, e.g. Dance] |
+| **Secondary Genre** | [e.g. Electronic] |
+
+*DistroKid uses fixed dropdowns — pick the closest official genre. Subgenre/style nuance lives in the Spotify pitch below and in tags, not here.*
+
+### Spotify Editorial Pitch
+
+| Field | Value |
+|-------|-------|
+| **Genres (up to 3)** | [genre1, genre2, genre3] |
+| **Moods** | [e.g. euphoric, bittersweet, nostalgic] |
+| **Styles** | [e.g. anime opening, anisong, electro pop-rock] |
+| **Instruments** | [e.g. epic strings, electric guitar, bright synths, piano] |
+| **Similar artists (style cue, do not name-drop in description)** | [e.g. ...] |
+| **Song language / culture** | [e.g. English / instrumental] |
+
+**Pitch description (≤500 characters):**
+
+```
+[1–3 sentences for a playlist editor, not for fans. Lead with the hook or story, name the mood and sonic palette, call out the standout instruments and the moment that grabs a listener. No hashtags, no links, no ALL CAPS, no streaming-number boasts.]
+```
+
+*Character count: __ / 500*
+
 ## Production Notes
 
 - [Technical considerations]
