@@ -278,7 +278,7 @@ For distributor upload (DistroKid) and the Spotify editorial pitch (Spotify for 
 
 | Field | Value |
 |-------|-------|
-| **Genres (up to 3)** | [genre1, genre2, genre3] |
+| **Genres (up to 3)** | [genre1, genre2, genre3 — must be from the official Spotify pitch genre list, see `/reference/release/spotify-pitch-genres.md`] |
 | **Moods** | [e.g. euphoric, bittersweet, nostalgic] |
 | **Styles** | [e.g. anime opening, anisong, electro pop-rock] |
 | **Instruments** | [e.g. epic strings, electric guitar, bright synths, piano] |

@@ -181,7 +181,7 @@ The editorial pitch targets a **playlist editor**, not fans. Build the ≤500-ch
 - **Call out the grab moment** — the drop, the hook, the key change — what makes an editor lean in.
 - **Stay factual and clean** — no hashtags, no links, no ALL CAPS, no streaming-number boasts, no naming other artists in the prose (similar artists go in their own field).
 
-Fill the structured fields (genres, moods, styles, instruments, similar artists, language) from the same track sections so the metadata and the prose agree.
+Fill the structured fields (genres, moods, styles, instruments, similar artists, language) from the same track sections so the metadata and the prose agree. **Genres must be picked from the official closed list** in `/reference/release/spotify-pitch-genres.md` (up to 3) — Spotify's pitch form is a dropdown, not free text; don't invent or approximate a genre name that isn't on the list.
 
 ---
 

@@ -139,13 +139,66 @@ Character limits, required fields, and specifications for each platform.
 
 **Primary Genre**: Main classification (Electronic, Hip-Hop, Rock, etc.)
 
-**Secondary Genre**: Subgenre (House, Trap, Alternative, etc.)
+**Secondary Genre**: A second genre from the same closed list (not a subgenre) —
+e.g. DistroKid lets you pick up to 2 top-level genres total; see the DistroKid
+list below for the exact options.
 
 **Check distributor's genre list** - varies by platform.
 
 #### DistroKid genres
 
 DistroKid uses fixed dropdowns (no free text). Pick the closest official value.
+**Up to 2 genres** (Primary + Secondary) can be selected, both from the same
+closed list below. The "French label" column is what the UI shows when the
+DistroKid account is set to French — use the canonical (English) name when
+writing to track/album files, matching how this doc already refers to
+genres like "Dance" and "Electronic" elsewhere.
+
+| Genre | French label (if different) |
+|-------|------------------------------|
+| Afrobeat | |
+| Afropop | |
+| Alternative | Alternatif |
+| Singer/Songwriter | Auteur Compositeur/Interprète |
+| Soundtrack | Bande Originale |
+| Big Band | |
+| Blues | |
+| Christian/Gospel | Chrétien/Gospel |
+| Classical | Classique |
+| Country | |
+| Dance | |
+| Electronic | Électro |
+| Fitness & Workout | Fitness & Sport |
+| Folk | |
+| German Folk | Folk allemande |
+| Hip Hop/Rap | |
+| Latin House | House latino |
+| Comedy | Humoristique |
+| J-Pop | |
+| Jazz | |
+| Latin Jazz | Jazz latino |
+| K-Pop | |
+| Maskandi | |
+| Metal | |
+| Holiday | Musique Festive |
+| Latin | Musique Latine |
+| Contemporary Latin | Musique Latine Contemporaine |
+| Children's Music | Musique pour enfants |
+| Vocal | Musique Vocale |
+| New Age | |
+| Pop | |
+| German Pop | Pop allemande |
+| French Pop | Pop française |
+| Pop in Spanish | Pop Hispanique |
+| Punk | |
+| R&B/Soul | |
+| Reggae | |
+| Rock | |
+| Rock en Español | Rock Hispanique |
+| Spoken Word | |
+| Latin Urban | Urban Latino |
+| World | |
+| Xigaza | |
 
 **Mandatory subgenre when Primary = "Electronic".** Selecting "Electronic" as
 the primary genre forces a required subgenre from this closed list:
@@ -171,6 +224,14 @@ If none fit (e.g. anime-opening / anisong, hyperpop, cinematic), prefer a
 **non-Electronic primary** that avoids the forced subgenre — typically
 **Dance** (energetic club/EDM with vocals) or **Pop** (vocal-forward, catchy).
 Capture the precise style in the Spotify pitch and in tags, not in the DistroKid dropdown.
+
+#### Spotify editorial pitch genres
+
+Spotify's "Pitch a Song" form also uses a closed genre dropdown — separate
+from, and not required to match, the DistroKid genre above. Full official
+list (grouped by Spotify's own categories) in
+[`spotify-pitch-genres.md`](spotify-pitch-genres.md). The "Genres (up to 3)"
+field in a track's Spotify Editorial Pitch block must be filled from that list.
 
 ### Tags
 
